@@ -1,0 +1,22 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid var(--color-grey);
+}
+
+.tab {
+  border: none;
+  background-color: transparent;
+  color: var(--color-white);
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  padding: 10px 20px;
+  white-space: nowrap;
+}
+.tab.active {
+  background-color: var(--color-grey);
+}

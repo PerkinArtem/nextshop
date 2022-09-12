@@ -1,0 +1,24 @@
+.rating {
+  margin-bottom: 10px;
+}
+.stars {
+  display: flex;
+  align-items: center;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+.star + .star {
+  margin-left: 5px;
+}
+
+.rate {
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.count {
+  font-size: 14px;
+  margin-left: 10px;
+}

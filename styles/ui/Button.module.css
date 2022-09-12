@@ -1,0 +1,17 @@
+.button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: peru;
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button svg {
+  margin-right: 5px;
+}

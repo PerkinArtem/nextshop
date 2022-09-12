@@ -1,0 +1,25 @@
+.footer {
+  background: var(--color-grey);
+}
+.inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.copyright {
+  color: #D0D0D0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media (max-width: 767.98px) {
+  .inner {
+    flex-direction: column;
+  }
+  .copyright {
+    margin-bottom: 10px;
+  }
+}

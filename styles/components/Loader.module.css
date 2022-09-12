@@ -1,0 +1,23 @@
+.loader {
+  color: var(--color-white);
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.loader svg {
+  width: 100px;
+  height: 100px;
+  animation: rotating 3s infinite;
+  transform-origin: center;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
