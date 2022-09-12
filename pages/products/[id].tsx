@@ -55,6 +55,7 @@ const ProductPage = ({data}: ProductPageProps) => {
             <Image 
               className={styles.img}
               src={image} 
+              alt={title} 
               objectFit='contain'
               width={'200'}
               height={'300'}

@@ -6,11 +6,11 @@ type ButtonProps = {
   bgColor?: string,
   styles?: {},
   href?: string,
-  disabled?: boolean,
+  isDisabled?: boolean,
   opacity?: string
 }
 
-const Button = ({children, onClick, bgColor, href, disabled = false, opacity}: ButtonProps) => {
+const Button = ({children, onClick, bgColor, href, isDisabled = false, opacity}: ButtonProps) => {
 
   return (
     <button 
@@ -22,7 +22,7 @@ const Button = ({children, onClick, bgColor, href, disabled = false, opacity}: B
         ...styles
       }}
       onClick={onClick}
-      disabled
+      disabled={isDisabled}
     >
       {children}
     </button>

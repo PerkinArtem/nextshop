@@ -69,7 +69,7 @@ const Cart = () => {
               {
                 cart.length ? (
                   <Button 
-                    disabled={true} 
+                    isDisabled={true} 
                     opacity="0.3"
                   >
                     Proceed to checkout
